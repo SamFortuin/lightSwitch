@@ -14,7 +14,7 @@ pressed = False
 def updateWindow(background,buttonText,loggedText,color):
     window.configure(bg=background)
     button.configure(text=buttonText)
-    print(coloredText("",color,f'Light switched {loggedText}'))
+    print(coloredText("",color,f'light switched {loggedText}'))
 
 def switching(numEventYeet):
     global pressed
